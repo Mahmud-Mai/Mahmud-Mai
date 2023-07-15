@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  h1,
+  h2,
+  h3 {
+    @apply text-gray-300 text-4xl lg:text-8xl;
+  }
+  body {
+    @apply text-gray-500 text-lg lg:text-2xl;
+  }
+  button {
+    @apply bg-gray-600 text-gray-300 shadow-sm shadow-gray-400 text-sm p-4 rounded lg:py-4 lg:px-8;
+  }
+}
