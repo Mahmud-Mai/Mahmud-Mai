@@ -3,15 +3,66 @@
 @tailwind utilities;
 
 @layer components {
-  h1,
-  h2,
-  h3 {
-    @apply text-gray-300 text-4xl lg:text-8xl;
-  }
+  /* Global Styles  */
+
   body {
-    @apply text-gray-500 text-lg lg:text-2xl;
+    @apply text-gray-500 text-lg md:text-base lg:text-xl;
   }
-  button {
-    @apply bg-gray-600 text-gray-300 shadow-sm shadow-gray-400 text-sm p-4 rounded lg:py-4 lg:px-8;
+  h1 {
+    @apply text-gray-300 text-4xl xl:text-8xl;
+  }
+  h2 {
+    @apply text-gray-300 text-2xl xl:text-6xl;
+  }
+  h3 {
+    @apply text-gray-300 text-xl xl:text-2xl;
+  }
+
+  /* Whole page Bread Crumbs */
+
+  .breadcrumbs {
+    @apply mb-10;
+  }
+  .breadcrumbs-text {
+    @apply border border-gray-700 rounded-2xl capitalize p-2;
+  }
+
+  /* Projects section  */
+
+  .project_box {
+    @apply shadow-slate-300 min-h-[350px] lg:min-h-[450px] border border-gray-700 p-4;
+  }
+  .project_box a {
+    @apply text-gray-300;
+  }
+  .project_box h3 {
+    @apply py-2 lg:py-4;
+  }
+  .project_box p {
+    @apply py-2;
+  }
+  .project_box {
+    @apply mt-12 flex flex-col justify-between;
+  }
+  .project_box-links {
+    @apply flex justify-between my-2;
+  }
+  .project_box-links a {
+    @apply border border-gray-400 p-2  rounded-md hover:bg-gray-700;
+  }
+
+  /* Skills section  */
+
+  .skill_container {
+    @apply flex-col  text-center;
+  }
+  .skill_container-circle {
+    @apply w-[80px] xl:w-[120px] mx-auto bg-gray-800 p-4 rounded-full;
+  }
+  .skill_container-circle img {
+    @apply w-full;
+  }
+  .skill_container p {
+    @apply m-3;
   }
 }
