@@ -18,7 +18,7 @@ const Hero = () => {
         building wordpress websites for clients. I am eager to take on new
         challenges and I am always looking for ways to improve my skills. I am a
         problem solver who is always willing to go the extra mile to ensure that
-        my work is of the highest quality.
+        I deliver clean and efficient code.
       </p>
       <div className="my-12 flex space-x-8">
         <a href="https://github.com/Mahmud-Mai">Github</a>
