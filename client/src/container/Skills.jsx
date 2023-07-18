@@ -1,125 +1,33 @@
-import {
-  css,
-  git,
-  html,
-  javascript,
-  mui,
-  node,
-  react,
-  redux,
-  sass,
-} from "../assets/skills_images/index.js";
+import Heading from "../components/Heading.jsx";
+import SkillItem from "../components/SkillItem.jsx";
+import { skillData } from "../constants/constants.jsx";
 
 const Skills = () => {
   return (
     <div className="my-28">
-      <p className="breadcrumbs">
-        <span className="breadcrumbs-text">Skills</span>
-      </p>
+      <Heading
+        breadCrumbsText="Skills"
+        headingText="Skills & Experience"
+      />
+      <div className="w-3/5 mx-auto">
+        <div className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-3">
+          {/* Skill  */}
 
-      <h2 className="my-8">Technologies I use</h2>
-
-      {/* Skills Icons  */}
-      <div className="flex ">
-        {/* Skill  */}
-        <div>
-          <div>
-            <img
-              src={react}
-              alt="skill icon"
+          {skillData.map(({ index, imgSrc, skillName }) => (
+            <SkillItem
+              key={index}
+              skillName={skillName}
+              imgSrc={imgSrc}
             />
-          </div>
-          <p>React</p>
+          ))}
         </div>
-        {/* Skill  */}
-        <div>
-          <div>
-            <img
-              src={node}
-              alt="skill icon"
-            />
+        {/* <div className="w-2/5">
+          <div className="grid grid-cols-2">
+            <div>
+              <p>Year</p>
+            </div>
           </div>
-          <p>Node</p>
-        </div>
-
-        {/* Skill  */}
-        <div>
-          <div>
-            <img
-              src={html}
-              alt="skill icon"
-            />
-          </div>
-          <p>Html</p>
-        </div>
-
-        {/* Skill  */}
-        <div>
-          <div>
-            <img
-              src={css}
-              alt="skill icon"
-            />
-          </div>
-          <p>CSS</p>
-        </div>
-
-        {/* Skill  */}
-        <div>
-          <div>
-            <img
-              src={javascript}
-              alt="skill icon"
-            />
-          </div>
-          <p>Javascript</p>
-        </div>
-
-        {/* Skill  */}
-        <div>
-          <div>
-            <img
-              src={sass}
-              alt="skill icon"
-            />
-          </div>
-          <p>Sass</p>
-        </div>
-        {/* Skill  */}
-
-        <div>
-          <div>
-            <img
-              src={mui}
-              alt="skill icon"
-            />
-          </div>
-          <p>mui</p>
-        </div>
-        {/* Skill  */}
-
-        <div>
-          <div>
-            <img
-              src={git}
-              alt="skill icon"
-            />
-          </div>
-          <p>git</p>
-        </div>
-        {/* Skill  */}
-
-        <div>
-          <div>
-            <img
-              src={redux}
-              alt="skill icon"
-            />
-          </div>
-          <p>redux</p>
-        </div>
-
-        {/* Skill End */}
+        </div> */}
       </div>
     </div>
   );
