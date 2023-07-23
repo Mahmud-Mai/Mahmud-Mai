@@ -4,6 +4,7 @@ export { default as cvas } from "./project_images/cvas.png";
 export { default as flightcompare } from "./project_images/flightcompare_hero-section.png";
 export { default as greenby } from "./project_images/greenby_hero-section.png";
 export { default as zelo } from "./project_images/zelo_hero-section.png";
+export { default as pers_portfolio } from "./project_images/personal_portfolio_hero-section.png";
 
 // Skills Icons
 export { default as chakraui } from "./skills_images/chakraui.png";

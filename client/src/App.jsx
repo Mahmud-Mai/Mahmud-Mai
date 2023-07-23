@@ -1,16 +1,18 @@
-import Nav from "./components/Nav";
-import { Contact, Hero, Skills, Work } from "./container";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import { Contact, Hero, Experience, Work } from "./components";
 
 const App = () => {
   return (
-    <div className="w-full h-screen bg-gray-900">
-      <Nav />
+    <div className="w-full h-full bg-gray-900">
+      <Navbar />
       <div className="w-3/5 mx-auto">
         <Hero />
-        <Skills />
+        <Experience />
         <Work />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 };

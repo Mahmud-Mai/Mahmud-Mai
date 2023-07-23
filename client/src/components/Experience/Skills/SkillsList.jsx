@@ -1,4 +1,4 @@
-import { skillData } from "../constants/constants";
+import { skillData } from "../../../constants/constants";
 import SkillsListItem from "./SkillsListItem";
 
 const SkillsList = () => {

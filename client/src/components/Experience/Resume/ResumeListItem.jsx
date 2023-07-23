@@ -13,6 +13,8 @@ const ResumeListItem = ({
           <a
             className="hover:text-gray-400 underline hover:no-underline"
             href={companyLink}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {companyName}
           </a>

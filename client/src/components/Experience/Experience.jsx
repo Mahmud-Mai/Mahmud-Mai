@@ -1,11 +1,14 @@
-import Heading from "../components/Heading.jsx";
-import ResumeList from "../components/ResumeList.jsx";
-import SkillsList from "../components/SkillsList.jsx";
+import Heading from "../sharedComponents/Heading.jsx";
+import ResumeList from "./Resume/ResumeList.jsx";
+import SkillsList from "./Skills/SkillsList.jsx";
 
 const Experience = () => {
   return (
-    <div className="my-28">
-      <div className="mb-16">
+    <div
+      name="skills"
+      className="min-h-screen flex flex-col justify-center"
+    >
+      <div className="mb-8">
         <Heading
           breadCrumbsText="Skills"
           headingText="Technology I Use"

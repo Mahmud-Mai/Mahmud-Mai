@@ -1,7 +1,7 @@
-import { resumeData } from "../constants/constants";
+import { resumeData } from "../../../constants/constants";
 import ResumeListItem from "./ResumeListItem";
 
-const Resume = () => {
+const ResumeList = () => {
   return (
     <div>
       <div className="my-20 xl:my-2 xl:mb-10 ">
@@ -26,4 +26,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default ResumeList;
