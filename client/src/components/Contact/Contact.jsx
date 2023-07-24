@@ -12,7 +12,9 @@ const Contact = () => {
             breadCrumbsText="Contact"
             headingText="Contact Me"
           />
-          <p className="py-4">I&apos;m open to any productive discussion.</p>
+          <p className="py-4">
+            I&apos;m open to any productive discussion. Let&apos;s chat!
+          </p>
         </div>
         <form
           method="POST"
