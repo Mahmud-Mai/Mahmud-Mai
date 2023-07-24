@@ -20,7 +20,7 @@ const ProjectCardItem = ({
         <p className="my-2 italic text-gray-500">Tech used: {techUsed}</p>
       </div>
       <div className="project_box-links">
-        {codeLink !== "#" && <a href={codeLink}>Source code</a>}
+        {codeLink !== "#" && <a href={codeLink}>Github</a>}
         <a href={siteLink}>Visit site</a>
       </div>
     </div>
