@@ -5,7 +5,7 @@ const Heading = ({ headingText, breadCrumbsText }) => {
     <>
       <div className="mb-16">
         <p className="my-10">
-          <span className="breadcrumbs-text"> {breadCrumbsText}</span>
+          <span className="breadcrumbs-text"> {breadCrumbsText} </span>
         </p>
         <h2 className="my-4">{headingText}</h2>
       </div>

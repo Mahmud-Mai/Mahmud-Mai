@@ -7,7 +7,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-gray-200">
+    <div className="fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-gray-200">
       <div className="capitalize font-signature text-3xl hover:text-[1.95rem] duration-300">
         <Link
           className="hover:cursor-pointer"
