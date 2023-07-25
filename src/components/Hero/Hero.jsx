@@ -9,7 +9,7 @@ const Hero = () => {
       <p className="breadcrumbs">
         <span className="breadcrumbs-text">Intro</span>
       </p>
-      <p className="flex mt-10  text-gray-400 text-lg lg:text-3xl">
+      <p className="flex mt-10  text-gray-400 text-lg lg:text-2xl">
         <span className="relative flex top-[10px] h-3 w-3 mx-3 align-middle">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
@@ -21,7 +21,7 @@ const Hero = () => {
         Hello <span className="animate-pulse">👋</span> , I am Mahmud Mai. A
         Javascript developer
       </h1>
-      <p className="mb-12 text-lg lg:text-xl xl:text-2xl  tracking-wide">
+      <p className="mb-12 text-lg lg:text-xl tracking-wide">
         I am a JavaScript/React developer with a passion for building scalable
         web applications. I am proficient in the MERN stack and have experience
         building wordpress websites for clients. I am eager to take on new
