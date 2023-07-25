@@ -19,7 +19,7 @@ const Hero = () => {
 
       <h1 className="my-10 tracking-wider capitalize">
         Hello <span className="animate-pulse">👋</span> , I am Mahmud Mai. A
-        Javascript developer
+        passionate software developer
       </h1>
       <p className="mb-12 text-lg lg:text-xl tracking-wide">
         I am a JavaScript/React developer with a passion for building scalable
