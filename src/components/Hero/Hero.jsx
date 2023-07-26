@@ -17,11 +17,11 @@ const Hero = () => {
         <span>I&apos;m available for hire/projects</span>
       </p>
 
-      <h1 className="my-10 tracking-wider capitalize">
+      <h1 className="my-6 md:my-10 tracking-wider capitalize">
         Hello <span className="animate-pulse">👋</span>, I am Mahmud Mai. A
         passionate software developer
       </h1>
-      <p className="mb-12 text-base lg:text-xl tracking-wide">
+      <p className="mb-6 md:mb-12 text-base lg:text-xl tracking-wide">
         I am a JavaScript/React developer with a passion for building scalable
         web applications. I am proficient in the MERN stack and I have
         experience building wordpress websites for clients.{" "}
