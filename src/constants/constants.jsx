@@ -85,7 +85,7 @@ export const skillData = [
   { index: 8, imgSrc: mui, skillName: "MUI" },
   { index: 9, imgSrc: chakraui, skillName: "chakra Ui" },
   { index: 10, imgSrc: tailwind, skillName: "tailwind" },
-  { index: 11, imgSrc: redux, skillName: "html" },
+  { index: 11, imgSrc: redux, skillName: "redux" },
   { index: 12, imgSrc: sass, skillName: "sass" },
   { index: 13, imgSrc: git, skillName: "git" },
 ];
