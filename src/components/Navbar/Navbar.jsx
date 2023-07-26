@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed z-20 w-full h-[80px] flex justify-between items-center px-4 bg-cyan-950 text-gray-200">
-      <div className="capitalize font-signature text-3xl hover:text-[1.95rem] duration-300">
+      <div className="capitalize font-signature text-4xl hover:scale-110 duration-300">
         <Link
           className="hover:cursor-pointer"
           to="home"

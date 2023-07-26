@@ -18,7 +18,7 @@ const Hero = () => {
       </p>
 
       <h1 className="my-10 tracking-wider capitalize">
-        Hello <span className="animate-pulse">👋</span> , I am Mahmud Mai. A
+        Hello <span className="animate-pulse">👋</span>, I am Mahmud Mai. A
         passionate software developer
       </h1>
       <p className="mb-12 text-lg lg:text-xl tracking-wide">
