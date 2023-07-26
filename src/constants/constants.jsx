@@ -29,14 +29,14 @@ export const resumeData = [
     companyLink: "greenby.ng",
     startYear: 2019,
     endYear: "",
-    role: "Frontend Developer (intern)",
+    role: "Frontend Developer",
   },
   {
     index: 1,
     companyName: "NgSoft Services limited",
     companyLink: "https://greenby.ng",
     startYear: 2020,
-    endYear: "2020",
+    endYear: 2020,
     role: "Fullstack Developer",
   },
   {
@@ -60,7 +60,7 @@ export const resumeData = [
     companyName: "Zelo Integrated Global Synergy",
     companyLink: "https://zelogruop.ng",
     startYear: 2019,
-    endYear: "",
+    endYear: 2019,
     role: "Website Development (contract)",
   },
   {
@@ -99,7 +99,7 @@ export const projectData = [
     altText: "ABU Campus Vehicle Access System",
     heading: "ABU Campus Vehicle Access System",
     details:
-      "Still a work in progress. This project aims to digitalize the manual process of granting entry into the university premises.It is a web app that will snap plate numbers, detect the characters, save the info to the database, and then print an entry ticket",
+      "Still a work in progress...  A web app that uses computer vision to detect vehicle plate numbers and grant entry to the university premises.",
     techUsed:
       "React, MongoDB, Express, Node, Tesseract, React-Webcam, Redux toolkit, react-qrcode, AG grid, Chakra UI",
   },
@@ -111,7 +111,7 @@ export const projectData = [
     altText: "Greenby Website",
     heading: "Greenby Website",
     details:
-      "I have been involved in the full lifecycle of the website's rebranding, from development and maintenance to consultation.",
+      "I have been actively involved in the full lifecycle of the website's rebranding, from development and maintenance to consultation.",
     techUsed: "Wordpress, Figma",
   },
   {
@@ -122,8 +122,8 @@ export const projectData = [
     altText: "Zelo group",
     heading: "Zelo group",
     details:
-      "A website for Zelo Group Integrated Global Synergy limited using wordpress..",
-    techUsed: "Wordpress",
+      "This project was to build a website for Zelo Group Integrated Global Synergy Ltd. It features a responsive design",
+    techUsed: "Wordpress, Elementor",
   },
   {
     index: 3,
@@ -133,18 +133,19 @@ export const projectData = [
     altText: "Admin Dashboard",
     heading: "Admin Dashboard",
     details:
-      "A full stack ap that features the display of data using Nivo Charts, redux toolkit, MUI etc ",
+      "This project was to create a full-stack admin dashboard that features the display of data using Nivo Charts, Redux Toolkit, and MUI",
     techUsed:
       "React, MongoDB, Express, Node, Material UI, RTK Query, MUI data Grid, Nivo Charts",
   },
   {
     index: 4,
     imgSrc: pers_portfolio,
-    altText: "Personal Portfolio Website",
+    altText: "Developer Portfolio",
     siteLink: "#",
     codeLink: "https://github.com/Mahmud-Mai/portfolio-mahmud-01",
     heading: "Personal Portfolio Website",
-    details: "The site is meant to feature the use of tailwind css library.",
-    techUsed: "React, Tailwind Css",
+    details:
+      "A personal portfolio website to showcase my skills and experience as a web developer. It features a responsive design that is optimized for mobile devices",
+    techUsed: "React, Tailwind CSS",
   },
 ];

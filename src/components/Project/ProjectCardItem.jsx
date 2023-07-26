@@ -17,7 +17,9 @@ const ProjectCardItem = ({
         />
         <h3>{heading}</h3>
         <p>{details}</p>
-        <p className="my-2 italic text-gray-500">Tech used: {techUsed}</p>
+        <p className="my-2 italic text-gray-500 text-base">
+          Tech used: {techUsed}
+        </p>
       </div>
       <div className="project_box-links">
         {codeLink !== "#" && <a href={codeLink}>Github</a>}
