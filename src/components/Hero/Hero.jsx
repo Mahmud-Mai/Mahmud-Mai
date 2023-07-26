@@ -6,7 +6,7 @@ const Hero = () => {
       name="home"
       className="w-full min-h-screen flex flex-col justify-center"
     >
-      <p className="breadcrumbs">
+      <p className="hidden md:inline breadcrumbs">
         <span className="breadcrumbs-text">Intro</span>
       </p>
       <p className="flex mt-10  text-gray-400 text-base lg:text-xl">
@@ -23,12 +23,13 @@ const Hero = () => {
       </h1>
       <p className="mb-6 md:mb-12 text-base lg:text-xl tracking-wide">
         I am a JavaScript/React developer with a passion for building scalable
-        web applications. I am proficient in the MERN stack and I have
-        experience building wordpress websites for clients.{" "}
-        <clients className="span hidden md:inline">
-          I am eager to take on new challenges and I am always looking for ways
-          to improve my skills.{" "}
-        </clients>
+        web applications.{" "}
+        <span className="span hidden md:inline">
+          {" "}
+          I am proficient in the MERN stack and I have experience building
+          wordpress websites for clients. I am eager to take on new challenges
+          and I am always looking for ways to improve my skills.{" "}
+        </span>
         I am a problem solver who is always willing to go the extra mile to
         ensure that I deliver clean and efficient code.
       </p>
