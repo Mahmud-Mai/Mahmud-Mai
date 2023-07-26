@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="mb-8">
         <Heading
           breadCrumbsText="Skills"
-          headingText="Technology I Use"
+          headingText="Technologies I Use"
         />
       </div>
 
