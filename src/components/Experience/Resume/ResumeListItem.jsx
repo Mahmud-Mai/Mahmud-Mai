@@ -7,7 +7,7 @@ const ResumeListItem = ({
   role,
 }) => {
   return (
-    <li className="flex flex-col items-start max-w-[500px] border rounded-lg border-gray-700 py-3 pl-8">
+    <li className="flex flex-col items-start max-w-[500px] border rounded-lg border-gray-700 py-2 pl-8">
       <p className="">
         <span className="text-gray-300">
           <a

@@ -22,7 +22,7 @@
     @apply text-gray-500 text-lg md:text-base lg:text-xl;
   }
   h1 {
-    @apply text-gray-300 text-4xl xl:text-6xl;
+    @apply text-gray-300 text-3xl xl:text-6xl;
   }
   h2 {
     @apply text-gray-300 text-2xl xl:text-4xl;
@@ -39,7 +39,7 @@
 
   /* Hero section  */
   .hero_box-links a {
-    @apply text-4xl text-gray-200 xl:text-5xl py-5 hover:text-gray-400 duration-300;
+    @apply text-2xl lg:text-4xl text-gray-200 xl:text-5xl py-5 hover:text-gray-400 duration-300;
   }
 
   /* Projects section  */
@@ -70,7 +70,7 @@
     @apply flex flex-col items-center justify-around;
   }
   .skill_container-circle {
-    @apply shadow-sm shadow-gray-600 w-[80px] xl:w-[80px] bg-gray-800 p-4 rounded-full;
+    @apply shadow-sm shadow-gray-600 max-w-[70px] bg-gray-800 p-3 rounded-full;
   }
   .skill_container-circle img {
     @apply w-full;

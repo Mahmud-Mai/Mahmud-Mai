@@ -4,7 +4,7 @@ import ResumeListItem from "./ResumeListItem";
 const ResumeList = () => {
   return (
     <div>
-      <div className="my-20 xl:my-2 xl:mb-10 ">
+      <div className="mt-10 mb-20 xl:mt-0 xl:mb-10 ">
         <h2 className="mb-4 text-xl lg:text-3xl">Resume</h2>
         <h4>A history of places I’ve worked and studied at.</h4>
       </div>

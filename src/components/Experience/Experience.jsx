@@ -15,7 +15,7 @@ const Experience = () => {
         />
       </div>
 
-      <div className="flex flex-col xl:flex-row xl:space-x-20 xl:justify-between">
+      <div className="flex flex-col space-y-8 xl:flex-row xl:space-x-20 xl:justify-between">
         <SkillsList />
         <ResumeList />
       </div>
