@@ -21,6 +21,7 @@ import {
   redux,
   sass,
 } from "../assets/index.js";
+import typescript from "../assets/skills_images/typescript.svg";
 
 export const resumeData = [
   {
@@ -78,7 +79,7 @@ export const skillData = [
   { index: 1, imgSrc: express, skillName: "express" },
   { index: 2, imgSrc: node, skillName: "Node" },
   { index: 3, imgSrc: mongodb, skillName: "mongodb" },
-  { index: 4, imgSrc: wordpress, skillName: "wordpress" },
+  { index: 4, imgSrc: typescript, skillName: "typescript" },
   { index: 5, imgSrc: html, skillName: "html" },
   { index: 6, imgSrc: css, skillName: "css" },
   { index: 7, imgSrc: javascript, skillName: "Javascript" },
@@ -88,6 +89,7 @@ export const skillData = [
   { index: 11, imgSrc: redux, skillName: "redux" },
   { index: 12, imgSrc: sass, skillName: "sass" },
   { index: 13, imgSrc: git, skillName: "git" },
+  { index: 14, imgSrc: wordpress, skillName: "wordpress" },
 ];
 
 export const projectData = [
