@@ -90,6 +90,7 @@ export const skillData = [
   { index: 12, imgSrc: sass, skillName: "sass" },
   { index: 13, imgSrc: git, skillName: "git" },
   { index: 14, imgSrc: wordpress, skillName: "wordpress" },
+  { index: 15, imgSrc: wordpress, skillName: "next" },
 ];
 
 export const projectData = [
