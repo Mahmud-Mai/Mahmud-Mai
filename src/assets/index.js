@@ -10,6 +10,7 @@ export { default as pers_portfolio } from "./project_images/personal_portfolio_h
 export { default as chakraui } from "./skills_images/chakraui.png";
 export { default as tailwind } from "./skills_images/tailwind.png";
 export { default as express } from "./skills_images/express.png";
+export { default as next } from "./skills_images/next.png";
 export { default as mongodb } from "./skills_images/mongodb.png";
 export { default as wordpress } from "./skills_images/wordpress.png";
 export { default as css } from "./skills_images/css.png";
