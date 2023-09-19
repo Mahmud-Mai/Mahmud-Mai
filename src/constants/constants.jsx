@@ -45,7 +45,7 @@ export const resumeData = [
     companyName: "Artex",
     companyLink: "https://twitter.com/art_ex_shop",
     startYear: "June 2023",
-    endYear: "Augugst 2023",
+    endYear: "September 2023",
     role: "Fullstack Developer (contract)",
   },
   {
