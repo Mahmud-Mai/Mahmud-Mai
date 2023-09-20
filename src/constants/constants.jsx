@@ -32,14 +32,14 @@ export const resumeData = [
     endYear: "",
     role: "Frontend Developer",
   },
-  // {
-  //   index: 1,
-  //   companyName: "NgSoft Services limited",
-  //   companyLink: "https://greenby.ng",
-  //   startYear: 2020,
-  //   endYear: 2020,
-  //   role: "Fullstack Developer",
-  // },
+  {
+    index: 1,
+    companyName: "Skylark Services limited",
+    companyLink: "#",
+    startYear: 2023,
+    endYear: "",
+    role: "Node.js Developer",
+  },
   {
     index: 2,
     companyName: "Artex",
