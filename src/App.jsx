@@ -1,11 +1,8 @@
-// import { inject } from "@vercel/analytics";
-
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import { Contact, Hero, Experience, Work } from "./components";
 
 const App = () => {
-  inject();
   return (
     <div className="w-full h-full bg-gray-900">
       <Navbar />
